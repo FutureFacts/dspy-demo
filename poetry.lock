@@ -1083,13 +1083,13 @@ files = [
 
 [[package]]
 name = "dspy"
-version = "2.5.20"
+version = "2.5.16"
 description = "DSPy"
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "dspy-2.5.20-py3-none-any.whl", hash = "sha256:a1b84effd2eb4ec332dc24843bcd68667c4fbfe0f797780350c4d819a786b4af"},
-    {file = "dspy-2.5.20.tar.gz", hash = "sha256:38819a09f6e5f3fe8c09ea1d08b8cea2044d915eb2d16279f8749f7b9ac00292"},
+    {file = "dspy-2.5.16-py3-none-any.whl", hash = "sha256:a3f82f904597cfe2fedb4f538d069e9e5586a9bda4689f51b45791e7228bb322"},
+    {file = "dspy-2.5.16.tar.gz", hash = "sha256:467f083abbd5a0b761628bf1bd257edfd6b92e78eecfb4d6fa33201afa550c7d"},
 ]
 
 [package.dependencies]
@@ -1098,7 +1098,6 @@ datasets = "*"
 diskcache = "*"
 httpx = "*"
 joblib = ">=1.3,<2.0"
-json-repair = "*"
 litellm = "<=1.49.1"
 magicattr = ">=0.1.6,<0.2.0"
 openai = "*"
@@ -1131,17 +1130,17 @@ weaviate = ["weaviate-client (>=4.6.5,<4.7.0)"]
 
 [[package]]
 name = "dspy-ai"
-version = "2.5.20"
+version = "2.5.16"
 description = "DSPy"
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "dspy-ai-2.5.20.tar.gz", hash = "sha256:b75ceb8dd53c849e6ff4e10dc04bfac1c981efb2b2f594f219583b6223f0ea69"},
-    {file = "dspy_ai-2.5.20-py3-none-any.whl", hash = "sha256:5b1670674edcf4edd9043b9298b6f2671881c56c7a790492614cb7babeb4b096"},
+    {file = "dspy-ai-2.5.16.tar.gz", hash = "sha256:2ade28afa267277751a58e03505326a68a14746607a8631e7fb20c398ea9355e"},
+    {file = "dspy_ai-2.5.16-py3-none-any.whl", hash = "sha256:905cfd33176fc96a548380cc6554f6d3587dfb7e121089b2af7758db3493bca7"},
 ]
 
 [package.dependencies]
-dspy = "2.5.20"
+dspy = "2.5.16"
 
 [[package]]
 name = "durationpy"
@@ -2058,17 +2057,6 @@ python-versions = ">=3.8"
 files = [
     {file = "joblib-1.4.2-py3-none-any.whl", hash = "sha256:06d478d5674cbc267e7496a410ee875abd68e4340feff4490bcb7afb88060ae6"},
     {file = "joblib-1.4.2.tar.gz", hash = "sha256:2382c5816b2636fbd20a09e0f4e9dad4736765fdfb7dca582943b9c1366b3f0e"},
-]
-
-[[package]]
-name = "json-repair"
-version = "0.30.0"
-description = "A package to repair broken json strings"
-optional = false
-python-versions = ">=3.8"
-files = [
-    {file = "json_repair-0.30.0-py3-none-any.whl", hash = "sha256:bda4a5552dc12085c6363ff5acfcdb0c9cafc629989a2112081b7e205828228d"},
-    {file = "json_repair-0.30.0.tar.gz", hash = "sha256:24f12087a0e385ed47207eab1fca12bffd473e48db5bb803793d6c4fd97377ce"},
 ]
 
 [[package]]
@@ -6954,4 +6942,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "90d7e0623a63f3cfe49dbf31819b0867bbb2d231729b6df5eff7ecf64754c376"
+content-hash = "f23a66da6514d8deeb848a7a55738bc52cec6041df124c9c76e95fe1c13176c4"
