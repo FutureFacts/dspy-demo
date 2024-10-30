@@ -10,7 +10,6 @@
   - [Windows](#windows)
 - [Project Setup](#project-setup)
 
-
 ## Installation (Prerequisites)
 
 In its current form this application has been tested to work (version 0.1.0) on MacOS.
