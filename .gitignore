@@ -170,3 +170,4 @@ cython_debug/
 
 # vector db
 chroma-db
+db/
