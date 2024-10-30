@@ -1,0 +1,29 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "echo",
+            // "type": "shell",
+            "command": "echo ${file}"
+        },
+        {
+            "label": "Export Notebook",
+            // "type": "shell",
+            // "type": "process",
+            "cwd": "${workspaceFolder}",
+            "command": "${command:jupyter.exportAsPythonScript}"
+        },
+        {
+            "label": "Show File",
+            "cwd": "${workspaceFolder}",
+            "command": "echo ${file}"
+        },
+        {
+            "label": "pre-commit",
+            "type": "shell",
+            "command": "poetry run pre-commit run -a"
+        }
+    ]
+}

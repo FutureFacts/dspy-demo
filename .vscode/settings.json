@@ -1,0 +1,47 @@
+{
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "conventionalCommits.scopes": [
+        "config",
+        "core"
+    ],
+    // "pylint.path": [
+    //     "[\"poetry\", \"run\", \"pylint\"]"
+    // ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+            "notebook.codeActionsOnSave": "explicit"
+        },
+    },
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "isort.path": [
+        "~",
+        "run",
+        "isort"
+    ],
+    "isort.showNotification": true,
+    "isort.check": true,
+    "black-formatter.path": [
+        "poetry",
+        "run",
+        "black"
+    ],
+    "editor.rulers": [
+        100
+    ],
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 100,
+    "notebook.output.wordWrap": true,
+}
